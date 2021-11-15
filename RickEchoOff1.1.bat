@@ -1047,7 +1047,9 @@ echo echo ////////////////*///**//////////////.           .  ...,...      .,,,**
 echo echo //*////**/////**//////***///////////            ,*******,,.      ..,**////////////////////////////**>>rk.bat
 echo ping localhost -n 1 ^>nul>>rk.bat
 echo goto :loop>>rk.bat
-// remove this part if your going to use this on someone.
+
+
+::remove this part if your going to use this on someone.
 set v= ^%%p^%%
 
 echo @echo off>killrick.bat
@@ -1085,7 +1087,7 @@ echo del rk.bat>>killrick.bat
 echo del killrick.bat>>killrick.bat
 echo timeout 3 ^> nul>>killrick.bat
 echo taskkill /F /im cmd.exe>>killrick.bat
-//end remove
+::end remove
 
 
 timeout 1 > nul
