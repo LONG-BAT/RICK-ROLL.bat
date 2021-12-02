@@ -17,7 +17,7 @@ taskkill /F /im wscript.exe
 echo While true>>rb.vbs
 echo Dim oPlayer>>rb.vbs
 echo set oPlayer = CreateObject("WMPlayer.OCX")>>rb.vbs
-echo oPlayer.URL = "http://tinyurl.com/s63ve48">>rb.vbs
+echo oPlayer.URL = "https://dl.dropboxusercontent.com/s/wza1sr5ot55bzdb/rickroll.mp3?dl=0">>rb.vbs
 echo oPlayer.controls.play>>rb.vbs
 echo While oPlayer.playState ^<^> 1 ' 1 = Stopped>>rb.vbs
 echo WScript.Sleep 100>>rb.vbs
