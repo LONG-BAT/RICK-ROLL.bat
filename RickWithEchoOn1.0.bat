@@ -1,7 +1,7 @@
 @echo off
 mode 200 , 50
 title Rick Startup.bat
-
+ 
 cd \
 cd %userprofile%
 if not exist %userprofile%\MicroShaft mkdir MicroShaft 
